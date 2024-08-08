@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>City Market</title>
+    <h1><center>CITY MARKET</center></h1>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html"><b>HOME</b></a>
+        <a href="about us.html"><b>ABOUT US</b></a>
+        <a href="dairy products.html"><b>DAIRY PRODUCTS</b></a>
+        <a href="vegetables.html"><b>VEGETABLES</b></a>
+        <a href="fruits.html"><b>FRUITS</b></a>
+        <a href="baking.html"><b>BAKING AND COOKING INGREDIENTS</b></a>
+        <a href="meat and seafood.html"><b>MEAT AND SEAFOOD</b></a>
+        <a class="active" href="order.html"><b>ORDER</b></a>
+        <a href="loyalty registration.html"><b>LOYALTY REGISTRATION</b></a>
+    </div><br><br>
+
+    <h1 class="topics"><b>ORDER</b></h1><br>
+    <div class="container">
+        <div class="box">
+            <form id="form1">
+                <div class="form-group">
+                    <label for="product1">VEGETABLES</label>
+                    <select id="product1" name="product">
+                        <option value="1" data-price="500">CARROTS</option>
+                        <option value="2" data-price="650">EGG PLANT</option>
+                        <option value="3" data-price="900">CUCUMBER</option>
+                        <option value="4" data-price="400">TOMATOES</option>
+                        <option value="5" data-price="1200">BELL-PEPPER</option>
+                        <option value="6" data-price="1000">BROCCOLI</option>
+                        <option value="7" data-price="500">CABBAGE</option>
+                        <option value="8" data-price="1300">CAULIFLOWER</option>
+                        <option value="9" data-price="700">PUMPKIN</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity1">Kg/s</label>
+                    <input type="text" id="quantity1" name="quantity">
+                </div>
+            </form>
+            <button type="button" class="add-to-cart" data-form="form1">Add to Cart</button> 
+        </div>
+
+        <div class="box">
+            <form id="form2">
+                <div class="form-group">
+                    <label for="product2">MEAT AND SEAFOOD</label>
+                    <select id="product2" name="product">
+                        <option value="1" data-price="90.0">CHICKEN</option>
+                        <option value="2" data-price="150.0">PORK</option>
+                        <option value="3" data-price="160.0">BEEF</option>
+                        <option value="4" data-price="200.0">CRAB</option>
+                        <option value="5" data-price="140.0">PRAWNS</option>
+                        <option value="6" data-price="50.0">MACKERAL</option>
+                        <option value="7" data-price="70.0">THILAPIA</option>
+                        <option value="8" data-price="60.0">TUNA</option>
+                        <option value="9" data-price="50.0">SARDINE</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity2">Kg/s</label>
+                    <input type="text" id="quantity2" name="quantity">
+                </div>
+            </form>
+            <button type="button" class="add-to-cart" data-form="form2">Add to Cart</button> 
+        </div>
+
+        <div class="box">
+            <form id="form3">
+                <div class="form-group">
+                    <label for="product3">BAKING AND COOKING INGREDIENTS</label>
+                    <select id="product3" name="product">
+                        <option value="1" data-price="450">EGGS</option>
+                        <option value="2" data-price="40">FLOUR</option>
+                        <option value="3" data-price="30">SUGAR</option>
+                        <option value="4" data-price="100">CHILLIE POWDER</option>
+                        <option value="5" data-price="160">TURMERIC</option>
+                        <option value="6" data-price="40">SALT</option>
+                        <option value="7" data-price="60">PEPPER POWDER</option>
+                        <option value="8" data-price="80">CURRY POWDER</option>
+                        <option value="9" data-price="170">INSTANT DRY YEAST</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity3">Kg/s or Quantity</label>
+                    <input type="text" id="quantity3" name="quantity">
+                </div>
+            </form>
+            <button type="button" class="add-to-cart" data-form="form3">Add to Cart</button> 
+        </div>
+
+        <div class="box">
+            <form id="form4">
+                <div class="form-group">
+                    <label for="product4">FRUITS</label>
+                    <select id="product4" name="product">
+                        <option value="1" data-price="10">PAPAYA</option>
+                        <option value="2" data-price="50">ORANGE</option>
+                        <option value="3" data-price="20">AVACADO</option>
+                        <option value="4" data-price="60">APPLE</option>
+                        <option value="5" data-price="100">STRAWBERRY</option>
+                        <option value="6" data-price="70">MANGO</option>
+                        <option value="7" data-price="12">BANANA</option>
+                        <option value="8" data-price="120">BLUEBERRY</option>
+                        <option value="9" data-price="80">PINEAPPLE</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity4">Kg/s</label>
+                    <input type="text" id="quantity4" name="quantity">
+                </div>
+            </form>
+            <button type="button" class="add-to-cart" data-form="form4">Add to Cart</button> 
+        </div>
+
+        <div class="box">
+            <form id="form5">
+                <div class="form-group">
+                    <label for="product5">DAIRY PRODUCTS</label>
+                    <select id="product5" name="product">
+                        <option value="1" data-price="1200">INVERCAMY- milk</option>
+                        <option value="2" data-price="2000">PAGUMO Cheddar cheese</option>
+                        <option value="3" data-price="1800">AYTAC Cows milk-cheese</option>
+                        <option value="4" data-price="720">A ONE MILK Set curd</option>
+                        <option value="5" data-price="3050">EPIGAMIA Greek yougurt</option>
+                        <option value="6" data-price="1500">DAKIN Whole-milk</option>
+                        <option value="7" data-price="2050">HERITAGE Cheese Spread</option>
+                        <option value="8" data-price="2500">NUTS FOR BUTTER Herd & Garlic- Butter</option>
+                        <option value="9" data-price="200">ANCHOR-NEWDALE Plain-yoghurt</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity5">Quantity</label>
+                    <input type="text" id="quantity5" name="quantity">
+                </div>
+            </form>
+            <button type="button" class="add-to-cart" data-form="form5">Add to Cart</button> 
+        </div>
+    </div>
+
+    <div id="success-message" style="display:none; color: green; font-weight: bold;"></div>
+
+    <h2>Order Summary</h2>
+    <table id="result-table" border="1">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Total Cost</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table><br><br>
+
+    <div class="button-container">
+    <button class="button-small" id="add-to-favourites">Add to Favourites</button>
+    <button class="button-small" id="apply-favourites">Apply Favourites</button>  
+    </div>
+    <br><br>
+
+    <a href="pay page.html" class="button">Submit</a><br><br>
+
+    <script src="script.js"></script>
+
+        <footer class="footer">
+            <h2>CITY MARKET</h2>
+            <p>Copyright @2024</p>
+            <p>Established 2024</p>
+            <p>contact us from 0123327684</p> 
+          
